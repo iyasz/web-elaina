@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?= base_url()?>">
     <title>Elaina - Home</title>
 </head>
 
@@ -22,10 +23,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav m-auto">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="#">Gallery</a>
-                    <a class="nav-link" href="#">Profil</a>
-                    <a class="nav-link" href="#">Fanspage</a>
+                    <a class="nav-link" href="index.php?page=home">Home</a>
+                    <a class="nav-link" href="index.php?page=gallery">Gallery</a>
+                    <a class="nav-link" href="index.php?page=profil">Profil</a>
+                    <a class="nav-link" href="index.php?page=fanspage">Fanspage</a>
                 </div>
             </div>
         </div>
