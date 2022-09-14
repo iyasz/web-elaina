@@ -1,5 +1,27 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.text-bd{
+    margin-top: 34vh;
+    margin-left: 13vh;
+    font-size: 55px;
 }
